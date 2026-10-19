@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets -- .env holds live credentials
+# (INTELLIGENCE_API_KEY, CHANNEL_CODE)
+.env
+.env.*
+!.env.example
+
+# Teams app package produced by `copilotkit channels add --provision`
+*-teams-app.zip
+
+# Logs
+*.log
+run.log
+npm-debug.log*
+
+# Build / cache
+dist/
+build/
+*.tsbuildinfo
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

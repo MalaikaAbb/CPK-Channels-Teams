@@ -1,0 +1,9 @@
+{
+  "node_version": "20",
+  "dependencies": ["."],
+  "package_manager": "npm",
+  "graphs": {
+    "sample_agent": "./agent.ts:agent"
+  },
+  "env": ".env"
+}
